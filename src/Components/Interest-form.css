@@ -13,7 +13,7 @@
 }
 
 .interest-form-card {
-  background-color: rgba(70, 182, 223, 0.9);
+  background-color: rgb(71, 157, 175);
   border-radius: 0.5rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   padding: 2rem;
@@ -114,7 +114,7 @@
 .interest-form-button:hover {
   background-color: rgb(62, 65, 69);
   border: None;
-  color:rgba(67, 174, 210, 0.9);
+  color:rgb(71, 157, 175);
   transition: .5s ease-in-out;
   transform: translateY(-1px);
 }
