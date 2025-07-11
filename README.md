@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Spidr Design Air Fryer Interest Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Front Page Screenshot](screenshot.png)
 
-## Available Scripts
+## Overview
+This project is a custom React interest form designed for Spidr Design's (fictitious) new air fryer landing page. The form is visually inspired by the Spidr Design brand and features a modern, clean, and user-friendly interface.
 
-In the project directory, you can run:
+## Features
+- **Fields:**
+  - First Name
+  - Last Name
+  - Phone Number
+  - Email Address
+  - Guess the Air Fryer's Cost
+  - Secret 16-digit Spidr PIN (auto-formatted)
+- **Styling:**
+  - Uses Raleway Thin font for a sleek, modern look
+  - Custom color palette: dark gray background, blue form, white text
+  - Responsive and accessible design
+  - Animated underline for the title
+  - Stylish button with hover effect
+- **Functionality:**
+  - Real-time validation and error messages
+  - PIN field auto-formats as ####-####-####-####
+  - On submit, form data is printed to the console
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd interest-form
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-### `npm test`
+### Running the App
+```bash
+npm start
+# or
+yarn start
+```
+The app will be available at [http://localhost:3000](http://localhost:3000).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Design Inspiration
+- **Brand:** Inspired by [Spidr Design](https://spidr.design/)
+- **Font:** Raleway Thin for a modern, airy feel
+- **Colors:**
+  - Outer background: #333 (dark gray)
+  - Form background: #43aed2 (blue, 90% opacity)
+  - Text: White
+- **Layout:** Centered, responsive, and visually appealing
 
-### `npm run build`
+## Screenshot
+![Front Page Screenshot](screenshot.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is for demonstration purposes only and is not affiliated with Spidr Design.
